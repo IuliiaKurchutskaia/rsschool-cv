@@ -8,6 +8,7 @@
 * I have a special interes in FrondEnd developing and i hoping to gain some work experiense in this area.
 * I incredible want to change my carrier and my life, becouse this fiels of programming is amazing.
 ## Basic skills
+* Git
 * Linux
 * C++
 # Examle code `function(12)`
