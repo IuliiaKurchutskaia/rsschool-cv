@@ -3,14 +3,15 @@
 * Mobile: +7-999-219-92-34
 * email: kurchitskajaJulia@yandex.ru
 * [linkedin](https://www.linkedin.com/in/yuliya-kurchitskaya-921359149/?jobid=1234)
-## I 'm looking for a position of Junior javascript programmer.
+## I 'm looking for a position of Junior FrondEnd Developer.
 * At present, I styding javascript in [RS School](https://rs.school/)
 * I have a special interes in FrondEnd developing and i hoping to gain some work experiense in this area.
 * I incredible want to change my carrier and my life, becouse this fiels of programming is amazing.
 ## Basic skills
 * Git
-* Linux
-* C++
+* HTML
+* CSS
+* SASS
 # Examle code `function(12)`
 ## Experience
 * **LOMO JST**. Engineer
