@@ -1,3 +1,5 @@
+
+
 html {
     font-size: 12px;
    }
@@ -43,7 +45,7 @@ body {
     font-size: 4rem;
     font-style: 3,6rem;
     font-family: 'Barlow Black', Verdana, sans-serif;
-}
+ }
 
 .header__title h2 {
     font-size: 1.3rem;
@@ -136,22 +138,18 @@ width: 45%;
    padding: 15px; 
    font-size: 1.5rem;
    line-height: 1,5rem;
-   
- 
 }
 .layout-3-column{
     width: 100%;
 position: relative;
 display: flex;
 justify-content: space-between;
-
 }
 
 .contact__link{
     
     display: flex;
     flex-direction: column;
-     
     }
 .contact__link p,a{
     text-decoration: none;
@@ -186,4 +184,101 @@ justify-content: space-between;
     height: 35px;
 }
 
+@media screen and (max-width: 768px){
+    .header__content{
+        justify-content: center;
+        width: 768px;
+    }
+    .header__title h1{
+    font-size: 2rem;
+    font-style: 1,6rem;
+    }
+    .information_layout-2-column-container{
+       
+        justify-content: center;    
+    }
+       .information__content{
+        padding:0;
+    }
+        .information__content h3,h4{
+            font-size: 1.1rem;
+    }
+        .footer__wrapper {
+           padding: 0; 
+           font-size: 1.3rem;
+           line-height: 1,3rem;
+    }
+             
+        .layout-3-column{
+            width: 768px;
+            justify-content: center;
+    }
+        .contact__link{
+        margin: 20px;}
+}
 
+/*.photo{ display: 
+    none;}*/
+
+    @media screen and (max-width: 414px){
+        .header__wrapper{
+            padding: 0;
+        }
+        .header__content{
+            justify-content: center;
+           
+        }
+
+        .header__title h1,.header__title h2{
+        font-size: 1rem;
+        font-style: 1rem;
+        }
+        
+        .photo{ 
+            display: none;
+        }
+       
+           .information__content{
+         width: 320px;
+        flex-direction: column;
+          
+           
+        }
+        .information__content.about{
+            display: flex;
+            justify-self: center;
+        }
+        .information__content.education{
+            display: none;
+        }
+        .information__content.work{
+            display: none;
+        }
+        .information__content.code{
+            display: none;
+        }
+        .information__content.eng{
+            display: none;
+        }
+            .information__content h3,h4{
+               
+                font-size: 1.1rem;
+        }
+            .footer__wrapper {
+               padding: 0; 
+               font-size: 0.8rem;
+               line-height: 0.83rem;
+        }
+                 
+            .layout-3-column{
+               
+                flex-direction: column;
+                justify-content: center;
+        }
+        .icon{
+            display: none;
+        }
+            .contact__link{
+                
+            margin: 0px;}
+    }
