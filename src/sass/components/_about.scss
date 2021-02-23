@@ -7,16 +7,22 @@
         padding:0;}
 }
 
-.information__content p, .information__content ul{
-   
+.information__content p, .information__content ul .information__content a{
+ 
     color:#034741;
-  //  text-indent: 25px;
-  }
-  //.information__content {flex-direction: column;}
-
-    .information__content.about{
-     order: -1;
     }
+ 
+.information__content a{
+        color:#50062b;
+        text-decoration: none;
+        &:hover{
+            color:#091296;
+        }
+    }
+
+.information__content.about {
+    order: -1; 
+}
     
     .information__content.education{
         order: 0; 
