@@ -661,6 +661,10 @@ h5 {
   }
 }
 
+.information__content {
+  color: #034741;
+}
+
 .information__content p, .information__content ul .information__content a {
   color: #034741;
 }
