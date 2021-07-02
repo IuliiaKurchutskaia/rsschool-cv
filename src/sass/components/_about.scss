@@ -1,0 +1,42 @@
+
+.information__container{
+  // box-sizing: border-box;
+    display: flex;
+    @include media-mobile {
+        flex-direction: column;
+        padding:0;}
+}
+
+.information__content p, .information__content ul .information__content a{
+ 
+    color:#034741;
+    }
+ 
+.information__content a{
+        text-decoration: none;
+        &:hover{
+            color:#091296;
+        }
+    }
+
+.information__content.about {
+    order: -1; 
+}
+    
+    .information__content.education{
+        order: 0; 
+    }
+    .information__content.work{
+        order: 0;
+    }
+    .information__content.skills{
+        order: -1;
+    }
+    .information__content.code{
+        order: 2;
+       
+    }
+    .information__content.eng{
+         order: 2
+    }
+    
