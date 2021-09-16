@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/sass/style.css">
     <title>Kurchitskaia Iuliia - Junior Front-End Developer</title>
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&display=swap" rel="stylesheet">
+    <link href='http://yastatic.net/highlightjs/8.2/styles/solarized_light.min.css' rel='stylesheet'/>
 </head>
 <body>
     <div class="wrapper">
@@ -37,7 +38,7 @@
                         <div class="section--main">
                             <div class="section__col section__col--photo">
                                     <div class="about-me__img-container">
-                                        <img class="about-me__img" src="photo1.jpg" alt="Personal photo">
+                                        <img class="about-me__img" src="/src/img/photo1.jpg" alt="Personal photo">
                                     </div>
                                     <h2 class="section__name">
                                         Kurchitskaia Iuliia</h2>
@@ -144,6 +145,30 @@
                         </div>
                     </article>
                 </section>
+                <section class="code-example section">
+                    <article class="projects__section section">
+                        <div class="column--left">
+                            <h3 class="section__title">
+                                Code example
+                            </h3>
+                            <p>From Codewars</p>
+                        </div>
+                      
+                            <pre>
+                                <code class="html">
+function sortByBit(arr) {
+    const count=(bit)=>bit.toString(2).replace(/[0]/g,'').length;
+    
+    return arr.sort((a,b)=>count(a)===count(b)?a-b:count(a)-count(b))
+}
+                                </code>
+                                 
+                              </pre>
+                      
+                    </article>
+            
+         
+                  </section> 
                 <section class="experience">
                     <h2 id="experience" class="title">Experience</h2>
                     <div class="section">
@@ -305,6 +330,7 @@
             </div>
         </footer>
     </div>
-
+    <script src='http://yastatic.net/highlightjs/8.2/highlight.min.js'/></script>
+    <script type='text/javascript'>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
