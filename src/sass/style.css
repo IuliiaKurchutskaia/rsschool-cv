@@ -412,21 +412,21 @@ section {
 }
 
 .piano {
-  background-image: url('/src/img/piano.png');
+  background-image: url('../img/piano.png');
 }
 
 .clock {
-  background-image: url('/src/img/clock.png');
+  background-image: url('../img/clock.png');
 }
 
 .player {
-  background-image: url('/src/img/player.png');
+  background-image: url('../img/player.png');
 }
 .slider {
-  background-image: url('/src/img/slider.png');
+  background-image: url('../img/slider.png');
 }
 .photofilter {
-  background-image: url('/src/img/photofilter.png');
+  background-image: url('../img/photofilter.png');
 }
 
 
