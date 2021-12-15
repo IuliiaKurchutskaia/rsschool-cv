@@ -411,6 +411,11 @@ section {
   z-index:3;
 }
 
+.Museum {
+  background-image: url('/src/img/museum.png');
+}
+
+
 .piano {
   background-image: url('/src/img/piano.png');
 }
