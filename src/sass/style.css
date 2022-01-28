@@ -415,7 +415,9 @@ section {
   background-image: url('/src/img/museum.png');
 }
 
-
+.portfolio{
+  background-image: url('/src/img/portfolio.png');
+}
 .piano {
   background-image: url('https://iuliiakurchutskaia.github.io/rsschool-cv/src/img/piano.png');
 }
