@@ -416,7 +416,7 @@ section {
 }
 
 .portfolio{
-  background-image: url('../img/portfolio.png');
+  background-image: url('./img/portfolio.png');
 }
 .piano {
   background-image: url('/src/img/piano.png');
@@ -434,6 +434,10 @@ section {
 }
 .photofilter {
   background-image: url('/src/img/photofilter.png');
+}
+
+.sounds{
+  background-image: url('/src/img/sounds.png');
 }
 
 
