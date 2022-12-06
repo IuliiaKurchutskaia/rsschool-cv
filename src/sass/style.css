@@ -240,9 +240,9 @@ section {
 }
 
 .section__col--photo {
-  background-color: #7d75f5;
+ 
   flex: 0 0 320px;
-  box-shadow: -8px 4px 15px 2px rgba(0, 0, 0, 0.2);
+ 
   text-align: center;
 }
 
@@ -254,8 +254,9 @@ section {
 }
 
 .about-me__img {
+  box-shadow: -8px 4px 15px 2px rgba(0, 0, 0, 0.2);
   display: inline-block;
-  width: 200px;
+  width: 300px;
   border-radius: 50%;
   margin-top: 2rem;
   margin-bottom: 2rem;
