@@ -428,21 +428,21 @@ section {
   background-image: url('./img/portfolio.png');
 }
 .piano {
-  background-image: url('/src/img/piano.png');
+  background-image: url('https://iuliiakurchutskaia.github.io/rsschool-cv/src/img/piano.png');
 }
 
 .clock {
-  background-image: url('/src/img/clock.png');
+  background-image: url('https://iuliiakurchutskaia.github.io/rsschool-cv/src/img/clock.png');
 }
 
 .player {
-  background-image: url('/src/img/player.png');
+  background-image: url('https://iuliiakurchutskaia.github.io/rsschool-cv/src/img/player.png');
 }
 .slider {
-  background-image: url('/src/img/slider.png');
+  background-image: url('https://iuliiakurchutskaia.github.io/rsschool-cv/src/img/slider.png');
 }
 .photofilter {
-  background-image: url('/src/img/photofilter.png');
+  background-image: url('https://iuliiakurchutskaia.github.io/rsschool-cv/src/img/photofilter.png');
 }
 
 .sounds{
